@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "2";
+const prefix = "1";
 /////////////////////////
 ////////////////////////
 
@@ -353,4 +353,4 @@ client.user.setGame(`1play | Last Music`,)
 client.user.setStatus("dnd")
 });
 
-client.login(NTEwNzk4MzA5NDYwNTQxNDQx.DshnDg.PGBprzkC9_Q6Kj07Dn1MpdjVFZc);
+client.login(precess.env.TOKEN)
